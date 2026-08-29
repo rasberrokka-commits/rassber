@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Toko Digital Anda</title>
+ <style>
+ body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; color: #333; }
+ header { background: #007bff; color: #fff; padding: 2rem 1rem; }
+ .container { padding: 2rem; }
+ .services, .products { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+ .card { border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; width: 250px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+ .btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #28a745; color: #fff; text-decoration: none; border-radius: 4px; }
+ </style>
+</head>
+<body>
+ <header>
+ <h1>Selamat Datang di Layanan dan Produk Digital Kami</h1>
+ <p>Solusi terbaik untuk kebutuhan digital Anda</p>
+ </header>
+ <div class="container">
+ <h2>Layanan Kami</h2>
+ <div class="services">
+ <div class="card">
+ <h3>Desain Grafis</h3>
+ <p>Pembuatan logo dan aset visual profesional.</p>
+ <a href="#" class="btn">Pesan Sekarang</a>
+ </div>
+ <div class="card">
+ <h3>Pengembangan Web</h3>
+ <p>Pembuatan website kustom sesuai kebutuhan Anda.</p>
+ <a href="#" class="btn">Pesan Sekarang</a>
+ </div>
+ </div>
+ <h2>Produk Digital</h2>
+ <div class="products">
+ <div class="card">
+ <h3>E-Book Premium</h3>
+ <p>Panduan lengkap menguasai keterampilan digital.</p>
+ <p><strong>Rp 99.000</strong></p>
+ <a href="#" class="btn">Beli Sekarang</a>
+ </div>
+ <div class="card">
+ <h3>Template Presentasi</h3>
+ <p>Template elegan untuk presentasi bisnis Anda.</p>
+ <p><strong>Rp 49.000</strong></p>
+ <a href="#" class="btn">Beli Sekarang</a>
+ </div>
+ </div>
+ </div>
+</body>
+</html>
